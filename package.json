@@ -1,0 +1,22 @@
+{
+  "name": "social-network",
+  "version": "0.0.1",
+  "description": "A simple and intuitive social network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sshregina/api-studying.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sshregina/api-studying/issues"
+  },
+  "homepage": "https://github.com/sshregina/api-studying#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
