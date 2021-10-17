@@ -2,9 +2,12 @@
   "name": "social-network",
   "version": "0.0.1",
   "description": "A simple and intuitive social network",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./app.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,19 @@
   },
   "homepage": "https://github.com/sshregina/api-studying#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "1.19.0",
+    "celebrate": "13.0.4",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "swagger-ui-express": "4.1.5"
+  },
+  "devDependencies": {
+    "eslint": "7.15.0",
+    "eslint-config-prettier": "7.0.0",
+    "eslint-plugin-jest": "24.1.3",
+    "eslint-plugin-prettier": "3.2.0",
+    "jest": "^27.3.0",
+    "nodemon": "2.0.6",
+    "prettier": "2.2.1"
   }
 }
