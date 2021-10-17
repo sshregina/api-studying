@@ -2,9 +2,9 @@
   "name": "social-network",
   "version": "0.0.1",
   "description": "A simple and intuitive social network",
-  "main": "app.js",
+  "main": "./src/app.js",
   "scripts": {
-    "start": "nodemon ./app.js",
+    "start": "nodemon ./src/app.js",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "lint": "eslint ."
